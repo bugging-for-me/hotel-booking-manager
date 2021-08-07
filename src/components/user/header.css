@@ -1,0 +1,269 @@
+*,
+body,
+html {
+    padding: 0;
+    margin: 0;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #bdbdbd;
+}
+
+::placeholder {
+    color: rgb(175, 175, 175);
+}
+
+body {
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: normal;
+    line-height: 14px;
+    background-color: #fff;
+}
+
+.header {
+    width: 100%;
+    height: 488px;
+    background: white;
+    position: relative;
+    background-image: url(https://storage.googleapis.com/tripi-assets/mytour/banner/home-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-navbar {
+    max-width: 100%;
+    padding: 0 calc(50% - 594px);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.02) 100%);
+    height: 48px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.header-navbar-left {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.header-navbar-left-item {
+    list-style: none;
+}
+
+.header-navbar-left-item__link {
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 24px;
+    color: white;
+}
+.header-navbar-right {
+    display: flex;
+    margin-top: 10px;
+}
+
+.header-navbar-right-item {
+    list-style: none;
+}
+
+.header-navbar-right-item__link {
+    font-size: 15px;
+    margin-right: 18px;
+    color: white;
+    line-height: 48px;
+    position: relative;
+}
+
+.header-booking {
+    padding: 64px 0 240px 0;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    max-width: 1188px;
+    flex-direction: column;
+}
+
+.header-booking-title {
+    cursor: pointer;
+    margin-left: 24px;
+    margin-bottom: 12px;
+}
+.header-booking-title__text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+}
+
+.header-booking-title__decoration {
+    background: white;
+    width: 40px;
+    height: 3px;
+    margin-top: 12px;
+    margin-left: 22px;
+}
+
+.header-booking-main {
+    border: none;
+    box-shadow: 0px 15px 15px rgb(0 0 0 / 20%);
+    width: 100%;
+    display: flex;
+    padding: 8px;
+    background: white;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.header-booking-main-adress {
+    margin-left: 16px;
+    position: relative;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    box-sizing: border-box;
+}
+.header-booking-main-adress__lable {
+    color: #4a5568;
+    font-size: 12px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.header-booking-main-adress__input {
+    color: #1a202c;
+    width: 300px;
+    z-index: 2;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    border-radius: 8px;
+    margin-bottom: -6px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+#input-search-hotel {
+    font: inherit;
+    color: currentColor;
+    width: 100%;
+    height: 1.1876em;
+    margin: 0;
+    display: block;
+    padding: 6px 0 7px;
+    min-width: 0;
+    background: none;
+    box-sizing: content-box;
+    animation-name: mui-auto-fill-cancel;
+    letter-spacing: inherit;
+    animation-duration: 10ms;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.header-booking-main-button {
+    cursor: not-allowed;
+    width: 100px;
+    outline: 0;
+    border: 0;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #ff3366;
+    color: #fff;
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    user-select: none;
+    justify-content: center;
+}
+
+.header-booking-main-date {
+    padding-left: 24px;
+    min-width: 368px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    border-left: #e4e4e4 0.1px solid;
+    box-sizing: border-box;
+}
+
+.header-booking-main-datetitle {
+    color: #4a5568;
+    font-size: 12px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.header-booking-main-date__value {
+    color: #1a202c;
+    font-size: 16px;
+    min-width: 120px;
+    font-weight: 600;
+    line-height: 19px;
+    padding-top: 6px;
+}
+
+.header-booking-main-people {
+    padding-left: 24px;
+    display: flex;
+    border-left: #e4e4e4 0.1px solid;
+    box-sizing: border-box;
+}
+
+.menu-bavside {
+    left: auto;
+    right: 0;
+    top: 0;
+    flex: 1 0 auto;
+    height: 100%;
+    display: flex;
+    outline: 0;
+    z-index: 1200;
+    position: fixed;
+    overflow-y: auto;
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 304px;
+    height: 100%;
+    padding: 8px 16px;
+}
+
+.menu-bavside-content__item {
+    cursor: pointer;
+    margin: 4px -8px;
+    display: flex;
+    padding: 12px 8px;
+    align-items: center;
+    border-radius: 8px;
+    width: 270px;
+}
+
+.menu-bavside-content__item-text {
+    color: #1a202c;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 16px;
+    margin-bottom: 4px;
+}
+
+#menu-bavside-content__item:hover {
+    background-color: #ebebeb;
+}
