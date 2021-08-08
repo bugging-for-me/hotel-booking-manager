@@ -87,6 +87,13 @@ a {
     position: relative;
 }
 
+a:hover{
+    color: #fff !important;
+}
+
+
+
+
 .header-booking {
     padding: 64px 0 240px 0;
     box-sizing: border-box;
@@ -198,13 +205,12 @@ a {
     padding-left: 24px;
     min-width: 368px;
     position: relative;
-    display: flex;
     justify-content: space-between;
     border-left: #e4e4e4 0.1px solid;
     box-sizing: border-box;
 }
 
-.header-booking-main-datetitle {
+.header-booking-main-peopletitle {
     color: #4a5568;
     font-size: 12px;
     text-align: left;
@@ -212,7 +218,30 @@ a {
     line-height: 14px;
 }
 
-.header-booking-main-date__value {
+.header-booking-main-datetitle  {
+    color: #4a5568;
+    font-size: 12px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 14px;
+    display: flex;
+}
+
+
+
+.header-booking-main-datetitle>p{
+    margin: 0;
+    padding-left: 11px;
+    margin-top: 6px;
+}
+#ngayve{
+    padding-left: 110px;
+}
+.ant-picker-large .ant-picker-input > input{
+    font-weight: 600;
+}
+
+.header-booking-main-people__value {
     color: #1a202c;
     font-size: 16px;
     min-width: 120px;
@@ -221,29 +250,12 @@ a {
     padding-top: 6px;
 }
 
+
 .header-booking-main-people {
     padding-left: 24px;
     display: flex;
     border-left: #e4e4e4 0.1px solid;
     box-sizing: border-box;
-}
-
-.menu-bavside {
-    left: auto;
-    right: 0;
-    top: 0;
-    flex: 1 0 auto;
-    height: 100%;
-    display: flex;
-    outline: 0;
-    z-index: 1200;
-    position: fixed;
-    overflow-y: auto;
-    background-color: #fff;
-    box-sizing: border-box;
-    width: 304px;
-    height: 100%;
-    padding: 8px 16px;
 }
 
 .menu-bavside-content__item {

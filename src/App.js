@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 
 import Footer from './components/user/footer/Footer';
+import Header from './components/user/Header';
 
 function App() {
   return (
     <div >
-      <Footer></Footer>
+      <Header/>
+      <Footer/>
     </div>
   );
 }

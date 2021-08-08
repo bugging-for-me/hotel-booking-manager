@@ -2,10 +2,13 @@ import React, { useState } from 'react';
 import './header.css';
 import MenuBar from './MenuBar';
 import { DatePicker, Space } from 'antd';
+import moment from 'moment';
+import 'moment/locale/zh-cn';
 const { RangePicker } = DatePicker;
 
 function Header(props) {
 
+    const dateFormat = "DD/MM/YYYY";
     const [visible, setVisible] = useState(false)
 
     function showDrawerMenu() {
@@ -15,6 +18,8 @@ function Header(props) {
     function onClose() {
         setVisible(false)
     }
+
+    
     return (
         <div>
             <header className="header">
@@ -94,14 +99,26 @@ function Header(props) {
                         </div>
                         <div className="header-booking-main-date">
                             <div className="header-booking-main-datetitle">
-                                Ngày đến
-                                <RangePicker size='large' bordered={false} placeholder={['Ngày đến','Ngày về']}/>
+                                <p>Ngày đến</p>
+                                <p id="ngayve">Ngày về</p>
                             </div>
+                            <RangePicker
+                                style={{ padding: '0 11px'}}
+                                id = 'ant-picker'
+                                size='large'
+                                bordered={false}
+                                inputReadOnly={true}
+                                disabledDate={(current) => {
+                                    return moment().add(-1, 'days')  >= current;
+                                }}
+                                format={dateFormat}
+                                defaultValue={[moment(),moment().add(+1, 'days')]}
+                            />
                         </div>
                         <div className="header-booking-main-people" >
-                            <div className="header-booking-main-datetitle ">
+                            <div className="header-booking-main-peopletitle ">
                                 Số phòng, số khách
-                                <div class="header-booking-main-date__value">1 phòng,&nbsp;2 người lớn,&nbsp;0 trẻ em</div>
+                                <div className="header-booking-main-people__value">1 phòng,&nbsp;2 người lớn,&nbsp;0 trẻ em</div>
                             </div>
                         </div>
                         <button className="header-booking-main-button" tabIndex={0} type="button">
@@ -109,9 +126,9 @@ function Header(props) {
                         </button>
                     </div>
                 </div>
-                <MenuBar 
+                <MenuBar
                     onClose={onClose}
-                    visible = {visible}
+                    visible={visible}
                 />
             </header>
         </div>

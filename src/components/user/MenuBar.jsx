@@ -13,7 +13,7 @@ function MenuBar(props) {
             key="right"
             width={300}
         >
-            <i class="fal fa-times" style={{ marginBottom: '20px', fontSize: '25px', cursor: 'pointer' }}></i>
+            <i onClick={onClose} class="fal fa-times" style={{ marginBottom: '20px', fontSize: '25px', cursor: 'pointer' }}></i>
             <div className="menu-bavside-content__item" id="menu-bavside-content__item">
                 <i class="fas fa-house-damage" style={{ fontSize: '18px', color: '#00b6f3' }}></i>
                 <p className="menu-bavside-content__item-text">Trang chủ</p>
