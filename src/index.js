@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 import React from 'react'
 import ReactDOM from 'react-dom'
 import 'antd/dist/antd.css'
 import './index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
+=======
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+>>>>>>> upstream/nguyenbinh
 ReactDOM.render(
   <React.StrictMode>
     <App />
