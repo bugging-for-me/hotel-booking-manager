@@ -14,14 +14,8 @@ function Slider(props) {
                 </div>
                 <div className=" slick-slider slider__body slick-initialized">
                     <div className="slider__list">
-                        <div
-                            className="slick__track"
-                            style={{ width: "5418px", opacity: "1" }}
-                        >
-                            <div
-                                class="slick-slide slick-active slick-current"
-                                style={{ outline: "none", width: "301px" }}
-                            >
+                        <div className="slick__track" style={{ width: "5418px", opacity: "1" }} >
+                            <div class="slick-slide slick-active slick-current" style={{ outline: "none", width: "301px" }} >
                                 <div className="slider__card">
                                     <a href="" className="MuiTypography-root">
                                         <div className="cart-container">
