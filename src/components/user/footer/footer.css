@@ -1,3 +1,439 @@
+/**/
+.jss314 {
+    width: 100%;
+    background: #f7fafc;
+    padding-top: 40px;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+div {
+    display: block;
+}
+
+.jss315 {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1188px;
+}
+body {
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: normal;
+    line-height: 14px;
+    background-color: #fff;
+}
+html {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+element.style {
+    margin-top: -94px;
+    margin-bottom: 40px;
+}
+.MuiGrid-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.jss366 {
+    border: 1px solid #edf2f7;
+    display: flex;
+    background: #ffffff;
+    box-shadow: 0px 8px 8px rgb(0 0 0 / 3%);
+    border-radius: 16px;
+    justify-content: space-between;
+}
+.jss372 {
+    display: flex;
+}
+.MuiGrid-grid-lg-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+}
+.MuiGrid-item {
+    margin: 0;
+    box-sizing: border-box;
+}
+.jss367 {
+    margin: 21px 0 21px 24px;
+}
+.jss374 {
+    width: 64px;
+    height: 64px;
+}
+
+.jss204 {
+    position: relative;
+}
+.jss208 {
+    opacity: 0;
+    transition: opacity 500ms;
+}
+
+.jss205 {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+    height: 100%;
+    display: flex;
+
+    z-index: 1;
+    position: absolute;
+
+    align-items: center;
+    justify-content: center;
+    background-color: #edf2f7;
+}
+
+.jss204 .lazyload-wrapper {
+    height: 100%;
+}
+.jss374 {
+    width: 64px;
+    height: 64px;
+}
+
+.jss207 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
+.jss368 {
+    margin: 19px 0 0 29px;
+}
+.MuiTypography-subtitle1 {
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.MuiTypography-root {
+    margin: 0;
+}
+
+.jss369 {
+    font-size: 14px;
+    margin-top: 6px;
+    font-weight: 400;
+    line-height: 22px;
+    padding-bottom: 18px;
+}
+
+.MuiTypography-body1 {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.MuiTypography-root {
+    margin: 0;
+}
+
+.MuiGrid-grid-lg-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+}
+
+.MuiGrid-grid-md-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+}
+.MuiGrid-grid-sm-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+}
+
+.MuiGrid-item {
+    margin: 0;
+    box-sizing: border-box;
+}
+.jss371 {
+    margin: 31px 31px 31px 58px;
+    display: flex;
+    align-items: center;
+}
+.jss370 {
+    color: #1a202c;
+    width: 350px;
+    height: 44px;
+    z-index: 2;
+    font-size: 16px;
+    background: #edf2f7;
+    font-weight: 600;
+    line-height: 19px;
+    padding-left: 12px;
+    border-radius: 8px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.MuiInput-root {
+    position: relative;
+}
+
+.MuiInputBase-root {
+    cursor: text;
+    display: inline-flex;
+
+    box-sizing: border-box;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.MuiInputBase-input {
+    font: inherit;
+    color: currentColor;
+    width: 100%;
+    border: 0;
+    height: 1.1876em;
+    margin: 0;
+    display: block;
+    padding: 6px 0 7px;
+    min-width: 0;
+    background: none;
+    box-sizing: content-box;
+    animation-name: mui-auto-fill-cancel;
+    letter-spacing: inherit;
+    animation-duration: 10ms;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.jss373 {
+    margin-left: -5px;
+    white-space: nowrap;
+}
+
+.jss381 {
+    color: rgb(253, 253, 253);
+    width: 101px;
+    border: none;
+    height: 44px;
+    margin: 0px;
+    padding: 6px 8px;
+    font-size: 16px;
+    min-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    text-transform: none;
+    background-color: rgb(255, 51, 102);
+}
+
+.MuiButton-text {
+}
+
+.MuiButton-root {
+    min-width: unset;
+    box-sizing: border-box;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.MuiButtonBase-root {
+    cursor: pointer;
+
+    display: inline-flex;
+    outline: 0;
+
+    position: relative;
+    align-items: center;
+    user-select: none;
+
+    vertical-align: middle;
+
+    justify-content: center;
+    text-decoration: none;
+
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.MuiButton-label {
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+}
+.jss382 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.jss383 {
+    display: flex;
+    align-items: center;
+}
+
+/* PHần Trên Footer
+*/
+element.style {
+    margin-top: 24px;
+}
+
+element.style {
+    margin-top: -94px;
+    margin-bottom: 40px;
+}
+.jss314 {
+    width: 100%;
+    background: #f7fafc;
+    padding-top: 40px;
+    padding-bottom: 2px;
+}
+.jss315 {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1188px;
+}
+.jss366 {
+    border: 1px solid #edf2f7;
+    display: flex;
+    background: #ffffff;
+    box-shadow: 0px 8px 8px rgb(0 0 0 / 3%);
+    border-radius: 16px;
+    justify-content: space-between;
+}
+.jss372 {
+    display: flex;
+}
+
+.MuiGrid-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-x;
+}
+.MuiGrid-spacing-xs-3 {
+    width: calc(100% + 24px);
+    margin: -12px;
+}
+body {
+    color: rgba(19, 18, 18, 0.87);
+    margin: 0;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: normal;
+    line-height: 25px;
+    background-color: #fff;
+}
+
+.MuiGrid-spacing-xs-3 > .MuiGrid-item {
+    padding: 12px;
+}
+.MuiGrid-grid-xs-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+}
+.MuiGrid-item {
+    margin: 0;
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+.jss316 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    margin-bottom: 8px;
+}
+.MuiTypography-body2 {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.MuiTypography-root {
+    margin: 0;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.jss317 {
+    color: #4a5568;
+    font-size: 12px;
+    line-height: 24px;
+}
+.jss319 {
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+}
+.MuiLink-underlineHover {
+    text-decoration: none;
+}
+.MuiTypography-colorPrimary {
+    color: #2c90bf;
+}
+.MuiTypography-root {
+    margin: 0px;
+}
+.MuiGrid-spacing-xs-3 > .MuiGrid-item {
+    padding: 12px;
+}
+.MuiGrid-grid-xs-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+}
+.MuiGrid-item {
+    margin: 0;
+    box-sizing: border-box;
+}
+.jss324 {
+    display: flex;
+    flex-direction: column;
+}
+
+.jss320 {
+    color: #4a5568;
+}
+.MuiLink-underlineHover {
+    text-decoration: none;
+}
+.MuiTypography-root {
+    margin: 0px;
+}
+.MuiGrid-spacing-xs-3 > .MuiGrid-item {
+    padding: 12px;
+}
+.MuiGrid-grid-xs-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+}
+.MuiGrid-item {
+    margin: 0;
+    box-sizing: border-box;
+}
+.jss333 {
+    display: flex;
+    flex-direction: column;
+}
+
 /* PHần Trên Footer
 */
 element.style {

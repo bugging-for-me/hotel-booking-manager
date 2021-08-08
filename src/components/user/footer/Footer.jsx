@@ -6,6 +6,46 @@ function Footer(props) {
         <div>
             <div className="MuiBox-root jss322 jss314">
                 <div className="MuiBox-root jss323 jss315">
+
+                    <div className="MuiBox-root jss365" style={{ marginTop: '-94px', marginBottom: '40px' }}>
+                        <div className="MuiGrid-root MuiGrid-container">
+                            <div className="MuiBox-root jss375 jss366">
+                                <div className="MuiGrid-root jss372 MuiGrid-item MuiGrid-grid-sm-7 MuiGrid-grid-md-7 MuiGrid-grid-lg-7">
+                                    <div className="MuiBox-root jss376 jss367">
+                                        <div className="jss204 jss374">
+                                            <div className="jss205 jss208" style={{ borderRadius: '0px' }} />
+                                            <div className="lazyload-wrapper ">
+                                                <img src="https://storage.googleapis.com/tripi-assets/mytour/icons/icon_mail_red.svg" className="jss207 jss374" alt="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="MuiBox-root jss377 jss368">
+                                        <h6 className="MuiTypography-root MuiTypography-subtitle1">Bạn muốn tiết kiệm tới 50%
+                                            khi
+                                            đặt phòng
+                                            khách sạn, vé máy bay?</h6>
+                                        <p className="MuiTypography-root jss369 MuiTypography-body1">Nhập số điện thoại để
+                                            Mytour có
+                                            thể gửi
+                                            đến bạn những chương trình khuyến mại mới nhất!</p>
+                                    </div>
+                                </div>
+                                <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-5 MuiGrid-grid-md-5 MuiGrid-grid-lg-5">
+                                    <div className="MuiBox-root jss378">
+                                        <form className="jss371" noValidate autoComplete="off">
+                                            <div className="MuiInputBase-root MuiInput-root jss370"><input placeholder="Nhập số điện thoại" type="text" className="MuiInputBase-input MuiInput-input" defaultValue /></div>
+                                            <div className="MuiBox-root jss380"><button className="MuiButtonBase-root MuiButton-root MuiButton-text jss154 jss381 jss373" tabIndex={0} type="button" margin={-10}><span className="MuiButton-label">
+                                                <div className="MuiBox-root jss382">
+                                                    <div className="MuiBox-root jss383" opacity={1}>Đăng ký</div>
+                                                </div>
+                                            </span><span className="MuiTouchRipple-root" /></button></div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <span><img src="https://storage.googleapis.com/tripi-assets/mytour/icons/icon_mytour_blue_large.svg" className="jss321" alt="logo_mytour_footer" /></span>
                     <div className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3" style={{ marginTop: '4px' }}>
                         <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true">
