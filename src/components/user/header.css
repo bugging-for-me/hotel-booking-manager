@@ -198,13 +198,34 @@ a {
     padding-left: 24px;
     min-width: 368px;
     position: relative;
-    display: flex;
     justify-content: space-between;
     border-left: #e4e4e4 0.1px solid;
     box-sizing: border-box;
 }
-
 .header-booking-main-datetitle {
+    display: flex;
+    margin-top: 4px;
+}
+.header-booking-main-datetitle>p{
+    color: #4a5568;
+    padding-left: 11px;
+    font-size: 12px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 14px;
+    margin: 0;
+}
+.ant-picker-large .ant-picker-input > input{
+    font-weight: 600  !important;
+}
+
+
+#ngayve {
+    padding-left: 110px;
+}
+
+
+.header-booking-main-peopletitle {
     color: #4a5568;
     font-size: 12px;
     text-align: left;
@@ -212,7 +233,7 @@ a {
     line-height: 14px;
 }
 
-.header-booking-main-date__value {
+.header-booking-main-people__value {
     color: #1a202c;
     font-size: 16px;
     min-width: 120px;
