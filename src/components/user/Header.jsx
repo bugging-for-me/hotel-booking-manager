@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './header.css';
 import MenuBar from './MenuBar';
-import { DatePicker, Space } from 'antd';
+import { DatePicker } from 'antd';
 const { RangePicker } = DatePicker;
 
 function Header(props) {
@@ -109,7 +109,7 @@ function Header(props) {
                         </button>
                     </div>
                 </div>
-                <MenuBar 
+                <MenuBar
                     onClose={onClose}
                     visible = {visible}
                 />

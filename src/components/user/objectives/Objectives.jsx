@@ -1,6 +1,5 @@
 import React from 'react';
-import index from './index.css'
-
+import './index.css'
 function Objectives(props) {
     return (
         <div className="jss104 jss2">

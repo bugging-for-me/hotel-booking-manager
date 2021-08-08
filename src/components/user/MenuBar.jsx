@@ -1,7 +1,5 @@
 import React from 'react';
-import 'antd/dist/antd.css';
 import { Drawer } from 'antd';
-import { red } from '@material-ui/core/colors';
 function MenuBar(props) {
     const { visible, onClose } = props;
     return (
