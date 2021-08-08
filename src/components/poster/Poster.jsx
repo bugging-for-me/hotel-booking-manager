@@ -9,7 +9,7 @@ function Poster() {
     <>
       <div className="poster-wrapper">
         <div className="poster-list">
-          <Carousel  autoplay={false} dots={false}>
+          <Carousel autoplay={false} dots={false}>
             <div className="poster-item">
               <a href="https://ketnoi.mytour.vn/">
                 <img src={Poster_1} alt="poster_1" />
@@ -25,26 +25,10 @@ function Poster() {
                 <img src={Poster_3} alt="poster_3" />
               </a>
             </div>
-            <div className="poster-item">
-              <a href="https://ketnoi.mytour.vn/">
-                <img src={Poster_3} alt="poster_3" />
-              </a>
-            </div>
-            <div className="poster-item">
-              <a href="https://ketnoi.mytour.vn/">
-                <img src={Poster_3} alt="poster_3" />
-              </a>
-            </div>
-            <div className="poster-item">
-              <a href="https://ketnoi.mytour.vn/">
-                <img src={Poster_3} alt="poster_3" />
-              </a>
-            </div>
           </Carousel>
         </div>
       </div>
     </>
   )
 }
-
 export default Poster

@@ -36,7 +36,6 @@
 }
 .slick-track {
   width: 1206 !important;
-  opacity: 1;
   transform: translate3d(0px, 0px, 0px) !important;
 }
 .poster-list .slick-slide {
