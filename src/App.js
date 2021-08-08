@@ -1,25 +1,20 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import Header from './components/user/Header';
 import logo from './logo.svg';
 >>>>>>> upstream/nguyenbinh
+=======
+import Header from './components/user/Header';
+import logo from './logo.svg';
+>>>>>>> ee1b69701002b4ecedaa793a60ebdc96ea23ada9
 
-import React from 'react'
-import Header from './components/user/Header'
-import Objectives from './components/user/objectives/Objectives.jsx'
-import Poster from './components/poster/Poster.jsx'
-import Footer from './components/user/footer/Footer';
 function App() {
   return (
-    <div>
-
+    <div >
       <Header />
-      <Objectives />
-      <Poster />
-      <Footer />
     </div>
-  )
-
+  );
 }
 
-export default App
+export default App;
