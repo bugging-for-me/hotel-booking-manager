@@ -88,11 +88,8 @@ a {
 }
 
 a:hover{
-    color: #fff !important;
+    color: rgb(57, 83, 92) !important;
 }
-
-
-
 
 .header-booking {
     padding: 64px 0 240px 0;
@@ -232,7 +229,7 @@ a:hover{
 .header-booking-main-datetitle>p{
     margin: 0;
     padding-left: 11px;
-    margin-top: 6px;
+    margin-top: 4px;
 }
 #ngayve{
     padding-left: 110px;
