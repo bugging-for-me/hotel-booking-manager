@@ -11,17 +11,12 @@ import Poster from './components/poster/Poster.jsx'
 import Footer from './components/user/footer/Footer';
 function App() {
   return (
-<<<<<<< HEAD
     <div>
 
       <Header />
       <Objectives />
       <Poster />
       <Footer />
-=======
-    <div >
-      <Header />
->>>>>>> upstream/nguyenbinh
     </div>
   )
 
