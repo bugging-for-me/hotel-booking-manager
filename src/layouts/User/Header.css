@@ -1,0 +1,100 @@
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    width: 100%;
+    height: 488px;
+    background: white;
+    position: relative;
+    background-image: url(https://storage.googleapis.com/tripi-assets/mytour/banner/home-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-navbar {
+    max-width: 100%;
+    padding: 0 calc(50% - 594px);
+    /* background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.02) 100%); */
+    height: 48px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.header-navbar-list {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+.header-navbar-item {
+    list-style: none;
+}
+
+.header-navbar-item__link {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin: 0;
+}
+
+
+.header-navbar-left-item__link {
+    font-weight: 600;
+    margin:0 24px 0 0;
+}
+
+
+.header-navbar-right-item__link {
+    margin:0 18px 0 0;
+    position: relative;
+    color: #fff;
+}
+
+.menu-bavside {
+    left: auto;
+    right: 0;
+    top: 0;
+    flex: 1 0 auto;
+    height: 100%;
+    display: flex;
+    outline: 0;
+    z-index: 1200;
+    position: fixed;
+    overflow-y: auto;
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 304px;
+    height: 100%;
+    padding: 8px 16px;
+}
+
+.menu-bavside-content__item {
+    cursor: pointer;
+    margin: 4px -8px;
+    display: flex;
+    padding: 12px 8px;
+    align-items: center;
+    border-radius: 8px;
+    width: 270px;
+}
+
+.menu-bavside-content__item-text {
+    color: #1a202c;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 16px;
+    margin-bottom: 4px;
+}
+
+#menu-bavside-content__item:hover {
+    background-color: #ebebeb;
+}

@@ -1,0 +1,132 @@
+.title-hotel {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.title-hotel-left {
+}
+
+
+.title-hotel-left>.title-hotel-left-title>p{
+    color: #1a202c;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 0;
+}
+
+
+.title-hotel-right-btn {
+    color: rgb(253, 253, 253);
+    width: 156px;
+    height: 44px;
+    margin: 0px;
+    background-color: rgb(255, 51, 102);
+}
+
+.title-hotel-right {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+             
+.title-hotel-right-price {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.title-hotel-right-price-real {
+    display: flex;
+}
+
+.title-hotel-right-price-real>p{
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: line-through;
+    margin-right: 5px;
+    margin: 0 5px 0 0
+}
+
+.title-hotel-right-price-real>span{
+    color: #ffffff;
+    padding: 2px 4px;
+    background: #FF3366;
+    max-height: 19px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,sans-serif;
+    font-weight: 600;
+    line-height: 16px;
+    margin: 0;
+}
+
+.title-hotel-right-price-sale {
+    font-size: 20px;
+    margin-top: 3px;
+    font-weight: 600;
+    line-height: 23px;
+    white-space: nowrap;
+}
+
+.title-hotel-right-price-sale>span{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-left: 3px;
+}
+
+.title-hotel-rate {
+    display: flex;
+    margin-top: 14px;
+    box-sizing: border-box;
+}
+
+.title-hotel-rate>span{
+    color: #ffffff;
+    padding: 2px 4px;
+    font-size: 14px;
+    background: #00B6F3;
+    font-weight: 600;
+    line-height: 17px;
+    margin-right: 4px;
+    border-radius: 4px;
+}
+
+.title-hotel-rate>div{
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    font-weight: 400;
+    line-height: 17px;
+}
+.title-hotel-rate-ratenumber {
+    color: #718096;
+}
+
+.jss153 {
+    width: 1px;
+    height: 14px;
+    margin: 0 8px;
+    background: #E2E8F0;
+}
+.title-hotel-rate-icont {
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+}
+.title-hotel-address {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.title-hotel-address>div{
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    font-weight: 400;
+    line-height: 17px;
+}

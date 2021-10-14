@@ -1,0 +1,54 @@
+.jss2 {
+    margin: 0 auto;
+    padding: 24px 0;
+    max-width: 1188px;
+  }
+  .jss105 {
+    display: flex;
+  }
+  .jss106 {
+    margin: 0 33px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .jss109 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .MuiTypography-subtitle2 {
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 600;
+    line-height: 16px;
+  }
+  .jss108 {
+    font-size: 12px;
+    margin-top: 8px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  .MuiTypography-body1 {
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: normal;
+    line-height: 20px;
+  }
+  .MuiTypography-root {
+    margin: 0;
+  }
+  .jss108 {
+    font-size: 12px;
+    margin-top: 8px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  .jss107 {
+    width: 64px;
+    height: 1px;
+    background: #718096;
+    margin-top: 16px;
+  }
